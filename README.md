@@ -199,6 +199,11 @@ FINDIT provides an intuitive graphical interface with five main sections:
 ## For Item Owners
 
 ### Searching for Lost Items
+
+<div>
+  <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Lost_item.png" alt="FINDIT UI" width="400"/>
+</div>
+
 1. Navigate to "Search and Verify Item Ownership"
 2. Use the search filters:
    - **Keywords**: Enter relevant terms

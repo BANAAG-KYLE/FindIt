@@ -236,7 +236,10 @@ FINDIT provides an intuitive graphical interface with five main sections:
   <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Verification_Failed.png" alt="FINDIT UI" width="400"/>
 </div>
 - Descriptions must match at least 60% with the recorded item
-  
+
+## ⚠️IMPORTANT NOTE⚠️
+
+While aiming for 100% accuracy, please note that small discrepancies might occur due to the current capabilities of the system, as fine-tuning the verification process is still a work in progress. These slight variations, however, are generally minimal and do not hinder the ownership verification.
 
 
 ## Claiming Items
@@ -253,11 +256,6 @@ FINDIT provides an intuitive graphical interface with five main sections:
 <div>
   <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Claim_Successful.png" alt="FINDIT UI" width="400"/>
 </div>
-
-
-## ⚠️IMPORTANT NOTE⚠️
-
-While aiming for 100% accuracy, please note that small discrepancies might occur due to the current capabilities of the system, as fine-tuning the verification process is still a work in progress. These slight variations, however, are generally minimal and do not hinder the ownership verification.
 
 ## For Administrators
 

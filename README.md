@@ -260,9 +260,10 @@ While aiming for 100% accuracy, please note that small discrepancies might occur
 ## For Administrators
 
 ### Accessing Admin Panel
-1. Click "Admin Settings" tab
-2. Enter admin password
+1. Click the "Admin Settings" tab
+2. Enter admin password <details><summary>Click to reveal password</summary> `admin123`</details>
 3. Access management features
+
 
 ### Administrative Functions
 1. **View Claimed Items**
@@ -279,29 +280,6 @@ While aiming for 100% accuracy, please note that small discrepancies might occur
    - Track verification attempts
    - Monitor system usage
    - Manage user claims
-
-## Best Practices
-
-### For Item Finders
-- Report items immediately
-- Document item condition
-- Note exact location and time
-- Handle items with care
-- Don't open sealed items
-
-### For Item Owners
-- Act promptly when searching
-- Provide accurate descriptions
-- Keep claim codes secure
-- Collect items within deadline
-- Bring required documentation
-
-### For Administrators
-- Regular system monitoring
-- Timely archive management
-- Verify claimant identity
-- Maintain accurate records
-- Update system regularly
 
 ---
 

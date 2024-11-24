@@ -270,11 +270,13 @@ While aiming for 100% accuracy, please note that small discrepancies might occur
 <div>
   <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Admin.png" alt="FINDIT UI" width="400"/>
 </div>
+<div>
+  <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Admin_Menu.png" alt="FINDIT UI" width="400"/>
+</div>
 
 1. **View Claimed Items**
    - Check all claimed items
    - View claimant details
-   - Monitor claim status
 
 <div>
   <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Admin_View.png" alt="FINDIT UI" width="800"/>
@@ -283,7 +285,6 @@ While aiming for 100% accuracy, please note that small discrepancies might occur
 2. **Archive Management**
    - Archive claims older than 30 days
    - Review archived items
-   - Generate reports
 
 <div>
   <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Admin_Archive.png" alt="FINDIT UI" width="400"/>
@@ -293,5 +294,5 @@ While aiming for 100% accuracy, please note that small discrepancies might occur
 
 <div align="center">
   <p>Developed with ❤️ for CS 121 – Advanced Computer Programming</p>
-  <p>© 2024 FINDIT. All rights reserved.</p>
+  <p>© 2024 FindIt. All rights reserved.</p>
 </div>

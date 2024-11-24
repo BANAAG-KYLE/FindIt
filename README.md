@@ -239,7 +239,7 @@ FINDIT provides an intuitive graphical interface with five main sections:
 
 ## ⚠️IMPORTANT NOTE⚠️
 
-While aiming for 100% accuracy, please note that small discrepancies might occur due to the current capabilities of the system, as fine-tuning the verification process is still a work in progress. These slight variations, however, are generally minimal and do not hinder the ownership verification.
+As a student project created in my second year, this system uses practical matching methods that focus on being user-friendly rather than being 100% perfect. The 60% match requirement strikes a balance between keeping items secure and making them easy to claim. People often describe the same item in different ways, so the system allows for these natural differences. While there might be small variations in how well items match, the system is built to work effectively in real situations.
 
 
 ## Claiming Items

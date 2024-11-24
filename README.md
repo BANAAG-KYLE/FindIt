@@ -163,6 +163,11 @@ FINDIT contributes to a more sustainable society by **reducing waste** through t
 # Comprehensive User Guide
 
 ## Getting Started
+<div>
+  <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/lost_and_found_UI.png" alt="FINDIT UI" width="400"/>
+</div>
+
+
 FINDIT provides an intuitive graphical interface with five main sections:
 - Report Lost Item
 - Search and Verify Item Ownership

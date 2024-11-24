@@ -235,19 +235,29 @@ FINDIT provides an intuitive graphical interface with five main sections:
 <div>
   <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Verification_Failed.png" alt="FINDIT UI" width="400"/>
 </div>
-
 - Descriptions must match at least 60% with the recorded item
   
 
+
 ## Claiming Items
+
+<div>
+  <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/CLAIM.png" alt="FINDIT UI" width="400"/>
+</div>
+
 1. Go to "Claim Lost Item" tab
 2. Enter your claim code
 3. Click "Claim Item"
-4. Follow the collection instructions:
-   - Visit Lost and Found office (Room 101, Admin Building)
-   - Bring valid ID and claim code
-   - Collect within 7 days
-   - Office hours: Monday-Friday, 9:00 AM - 5:00 PM
+4. Follow the collection instructions
+
+<div>
+  <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Claim_Successful.png" alt="FINDIT UI" width="400"/>
+</div>
+
+
+## ⚠️IMPORTANT NOTE⚠️
+
+While aiming for 100% accuracy, please note that small discrepancies might occur due to the current capabilities of the system, as fine-tuning the verification process is still a work in progress. These slight variations, however, are generally minimal and do not hinder the ownership verification.
 
 ## For Administrators
 

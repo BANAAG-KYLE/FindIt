@@ -213,7 +213,12 @@ FINDIT provides an intuitive graphical interface with five main sections:
 4. Review matching items in the results table
 
 ### Verifying Ownership
-1. Select the matching item from search results
+
+<div>
+  <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Verification.png" alt="FINDIT UI" width="400"/>
+</div>
+
+1. Click the matching item from search results
 2. Complete the verification form:
    - **Full Name**: Your complete name
    - **Contact Number**: Valid contact information

@@ -163,6 +163,7 @@ FINDIT contributes to a more sustainable society by **reducing waste** through t
 # Comprehensive User Guide
 
 ## Getting Started
+
 <div>
   <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/lost_and_found_UI.png" alt="FINDIT UI" width="400"/>
 </div>
@@ -178,6 +179,11 @@ FINDIT provides an intuitive graphical interface with five main sections:
 ## For Item Finders
 
 ### Reporting Found Items
+
+<div>
+  <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Report_lost_item_example.png" alt="FINDIT UI" width="400"/>
+</div>
+
 1. Click the "Report Lost Item" tab
 2. Fill in the required information:
    - **Description**: Provide at least 3 words describing the item
@@ -189,9 +195,6 @@ FINDIT provides an intuitive graphical interface with five main sections:
 
 **Tips for Good Descriptions:**
 - Include color, brand, and distinguishing features
-- Mention any visible damage or marks
-- Note any contents or attachments
-- Be specific but don't reveal unique identifying details
 
 ## For Item Owners
 

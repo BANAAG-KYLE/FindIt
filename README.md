@@ -266,20 +266,28 @@ While aiming for 100% accuracy, please note that small discrepancies might occur
 
 
 ### Administrative Functions
+
+<div>
+  <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Admin.png" alt="FINDIT UI" width="400"/>
+</div>
+
 1. **View Claimed Items**
    - Check all claimed items
    - View claimant details
    - Monitor claim status
+
+<div>
+  <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Admin_View.png" alt="FINDIT UI" width="800"/>
+</div>
 
 2. **Archive Management**
    - Archive claims older than 30 days
    - Review archived items
    - Generate reports
 
-3. **System Monitoring**
-   - Track verification attempts
-   - Monitor system usage
-   - Manage user claims
+<div>
+  <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Admin_Archive.png" alt="FINDIT UI" width="400"/>
+</div>
 
 ---
 

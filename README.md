@@ -147,37 +147,16 @@ FINDIT contributes to a more sustainable society by **reducing waste** through t
 
 ## Basic Installation
 
-1. Download the project:
-   - Click the green "Code" button above
-   - Select "Download ZIP"
-   - Extract the ZIP file to your desired location
-
-2. Install Python:
-   - Visit [Python's official website](https://www.python.org/downloads/)
-   - Download and install Python 3 or higher
-   - Make sure to check "Add Python to PATH" during installation
-
-3. Install required packages:
-   - Open your terminal or command prompt
-   - Navigate to the project folder:
-     ```bash
-     cd path/to/findit-folder
-     ```
-   - Install the requirements:
-     ```bash
-     pip install ttkthemes
-     ```
-
-## Running the Application
-
-1. Open your terminal or command prompt
-
-2. Navigate to the project folder:
+1. Clone the repository:
    ```bash
-   cd path/to/findit-folder
-   ```
-
-3. Run the application:
+   git clone https://github.com/BANAAG-KYLE/FindIt.git
+2. Navigate to the project repository:
+   ```bash
+   cd FindIt
+3. Install required dependencies:
+   ```bash
+   pip install ttkthemes
+4. Run the program:
    ```bash
    python lost_and_found_ui.py
 

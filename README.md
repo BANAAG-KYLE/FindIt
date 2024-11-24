@@ -165,7 +165,7 @@ FINDIT contributes to a more sustainable society by **reducing waste** through t
      ```
    - Install the requirements:
      ```bash
-     pip install tkinter ttkthemes
+     pip install ttkthemes
      ```
 
 ## Running the Application

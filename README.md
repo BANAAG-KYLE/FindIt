@@ -225,10 +225,21 @@ FINDIT provides an intuitive graphical interface with five main sections:
    - **Item Description**: Detailed description matching your lost item
 3. Click "Verify Ownership"
 4. If successful, save your claim code
-- Note: You have 3 attempts to verify ownership
-- Descriptions must match at least 60% with the recorded item
+   
+<div>
+  <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Verification_successful.png" alt="FINDIT UI" width="400"/>
+</div>
 
-### Claiming Items
+- Note: You have 3 attempts to verify ownership
+  
+<div>
+  <img src="https://github.com/BANAAG-KYLE/FindIt/blob/main/Images/Verification_Failed.png" alt="FINDIT UI" width="400"/>
+</div>
+
+- Descriptions must match at least 60% with the recorded item
+  
+
+## Claiming Items
 1. Go to "Claim Lost Item" tab
 2. Enter your claim code
 3. Click "Claim Item"

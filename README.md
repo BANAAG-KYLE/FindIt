@@ -118,6 +118,7 @@ json          # Data persistence
 datetime      # Date handling
 random        # ID generation
 difflib       # Text matching
+os            # File and directory operations
 ```
 
 

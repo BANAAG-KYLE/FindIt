@@ -47,7 +47,7 @@ Object-Oriented Programming (OOP) principles are at the core of FINDIT's design,
 - **Encapsulation**: Sensitive data such as admin passwords and claim codes are protected within methods or hashed, ensuring they aren't directly accessible. Encapsulation improves security and prevents accidental data modification.
 
 - **Polymorphism**: Methods like `verify_ownership_description` exhibit polymorphic behavior by handling ownership verification for various item types without needing separate implementations.
-- **Object Composition**: The system uses the `Item` and `Claimant` classes to encapsulate the attributes and behaviors of individual objects, which are then composed into a larger system for efficient management.
+- **Abstraction**: Abstraction in the Lost and Found system is implemented through carefully designed classes that hide complex implementation details, such as the `report_lost_item()` method, which lets users dump item info without worrying about the gritty backend mechanics of how the system actually processes and stores that data.
 
 ---
 

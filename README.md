@@ -38,15 +38,6 @@ FINDIT is a comprehensive Lost and Found Management System developed to revoluti
 
 # Python Concepts
 
-
-
-
-### 1. **Object-Oriented Programming**
-
-Here are the corrected explanations for each section:
-
----
-
 ### **1. Object-Oriented Programming**  
 
 #### a) **Encapsulation**  
@@ -59,8 +50,7 @@ class LostAndFoundSystem:
         self.claimants = []
         self.load_data()
         self.admin_password = hashlib.sha256("admin123".encode()).hexdigest()
-```
-**Why This Demonstrates Encapsulation:**  
+``` 
 - The `LostAndFoundSystem` class bundles data (`items`, `claimants`) and methods (`load_data`, `save_data`) together.  
 - Sensitive data like `admin_password` is stored privately within the class.  
 - The internal logic for loading, saving, and managing data is hidden from outside access.  
@@ -83,8 +73,7 @@ def verify_ownership(self, search_term, category_filter=None, date_filter=None):
             continue
         results.append(item)
     return results
-```
-**Why This Demonstrates Polymorphism:**  
+``` 
 - The `verify_ownership()` method behaves differently based on the arguments passed (`search_term`, `category_filter`, `date_filter`).  
 - It supports different search criteria without requiring separate methods.  
 - This flexibility showcases how the same method can adapt to different use cases.
@@ -103,7 +92,6 @@ def report_lost_item(self, description, location, found_date, category):
     self.save_data()
     return f"Item reported successfully with ID: {item_id}"
 ```
-**Why This Demonstrates Abstraction:**  
 - Users only need to provide minimal input (description, location, etc.).  
 - The system internally handles complex processes such as validation, ID generation, and data saving.  
 - These implementation details are abstracted away from the user, simplifying the interface.
@@ -122,8 +110,7 @@ def view_items(self):
     print("\nUnclaimed Items:")
     for item in unclaimed_items:
         print(f"Item ID: {item.item_id} | Location: {item.location}")
-```
-**Why This Demonstrates List Usage:**  
+```  
 - The method uses list comprehension to filter unclaimed items.  
 - It iterates through the list and prints relevant details.  
 
@@ -141,7 +128,6 @@ def archive_old_claims(self):
     self.save_data()
     return f"Archived {archived} items."
 ```
-**Why This Demonstrates Dictionary Operations:**  
 - Items are removed from the list based on conditions.  
 - A count (`archived`) keeps track of removed items.  
 - This shows handling of data structures with conditional logic.
@@ -159,8 +145,7 @@ def load_data(self):
             self.items = [Item(**item) for item in items_data]
     except FileNotFoundError:
         print("No items data found.")
-```
-**Why This Demonstrates File Reading:**  
+```  
 - Reads from JSON files and handles `FileNotFoundError` gracefully.  
 - Loads items into an in-memory list using the `Item` class.
 
@@ -173,8 +158,7 @@ def save_data(self):
         json.dump([vars(item) for item in self.items], f, indent=4)
     with open(self.claimants_file, 'w') as f:
         json.dump(self.claimants, f, indent=4)
-```
-**Why This Demonstrates File Writing:**  
+```  
 - Saves `items` and `claimants` to files using JSON serialization.  
 - Uses `vars()` to convert objects into dictionaries for storage.
 
@@ -194,7 +178,6 @@ def admin_menu(self):
         print("Invalid password.")
         return
 ```
-**Why This Demonstrates Security:**  
 - The admin password is securely hashed using SHA-256.  
 - Password verification compares the hash, ensuring secure storage.
 
@@ -208,7 +191,6 @@ def generate_item_id(self):
         if not any(item.item_id == item_id for item in self.items):
             return item_id
 ```
-**Why This Demonstrates Unique ID Generation:**  
 - The method generates random IDs until a unique one is found.  
 - It ensures no duplicate IDs are created.
 
@@ -233,8 +215,7 @@ def verify_ownership_description(self, item_id, description, name, contact):
         self.save_data()
         return {"success": True, "claim_code": claim_code}
     return {"success": False, "message": "Description doesn't match"}
-```
-**Why This Demonstrates Security:**  
+``` 
 - Ownership verification checks for similarity between descriptions.  
 - A claim code is generated only if a sufficient match is found.  
 
@@ -259,8 +240,7 @@ def claim_item(self, claim_code):
         return "Item claimed successfully!"
     else:
         return "Error: Item already claimed or not found."
-```
-**Why This Demonstrates Error Handling:**  
+``` 
 - Checks for claim code validity.  
 - Verifies if the item is already claimed.  
 - Handles various error conditions and provides clear messages.  

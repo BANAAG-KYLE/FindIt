@@ -27,14 +27,75 @@ IV. [Installation and Usage](#installation-and-usage)
 ## About FINDIT
 FINDIT is a comprehensive Lost and Found Management System developed to revolutionize how institutions handle lost and found items. Built with Python and modern GUI frameworks, FINDIT offers a secure, efficient, and user-friendly platform for reporting, tracking, and claiming lost items.
 
-## Core Features
-- 🖥️ Intuitive graphical user interface
-- 🔒 Secure authentication system
-- 🔍 Advanced search capabilities
-- 📊 Administrative dashboard
-- 🔄 Automated archiving
-- 💾 Persistent data storage
-- 🔐 Robust security measures
+## **Major Functionalities and Features**  
+
+### **1. Report Lost Item**  
+**Functionality:**  
+- Users can report a lost item by providing the following information:  
+  - **Description:** A detailed description of the item (validated to ensure meaningful input).  
+  - **Location:** The place where the item was found or last seen.  
+  - **Found Date:** The date when the item was found.  
+  - **Category:** A classification of the item (e.g., electronics, clothing, accessories).  
+
+**How It Works:**  
+- The system validates the item description to ensure quality data entry.  
+- A unique item ID is generated.  
+- The item is stored securely in the system's database.  
+- A success message with the assigned item ID is displayed.  
+
+---
+
+### **2. Verify Item Ownership**  
+**Functionality:**  
+- Users can check if their lost item is in the system by searching using:  
+  - **Item Description:** A key phrase describing the item.  
+  - **Category (Optional):** Filters results by category.  
+  - **Found Date (Optional):** Narrows the search by date.  
+
+**Verification Process:**  
+- If matching items are found, users provide their contact details and a detailed description of the item.  
+- The system checks the description’s similarity to stored records using a comparison algorithm.  
+- If a match is found, the system generates a unique claim code and records the claimant’s details.  
+
+---
+
+### **3. Claim an Item**  
+**Functionality:**  
+- After successful verification, users can claim their item using the unique claim code provided during the verification process.  
+
+**Claim Process:**  
+- The system checks if the claim code exists and is still valid.  
+- If the code matches, the item will be marked as “Claimed.”  
+- A success message confirms the claim, otherwise, an error message is displayed.  
+
+---
+
+### **4. View All Items**  
+**Functionality:**  
+- Users can view all unclaimed items currently stored in the system.  
+
+**How It Works:**  
+- The system filters and displays only items that are still marked as “Unclaimed.”  
+- Each displayed item includes relevant details such as:  
+  - **Item ID:** A unique identifier for the item.  
+  - **Location:** Where the item was found or last seen.  
+  - **Found Date:** When the item was found.  
+  - **Category:** The type of item reported.  
+- If no unclaimed items are available, a message informs the user that the list is empty.  
+
+---
+
+### **5. Admin Management**  
+**Functionality:**  
+- The system has a secure admin panel where administrators can:  
+  - **Search Claimed Items:** Look up claimed items by item ID.  
+  - **View Claimed Records:** Display all claimed items with claimant details.  
+  - **Archive Old Claims:** Remove items claimed over 30 days ago to keep the system organized.  
+
+**Security Measures:**  
+- Access to the admin panel requires a securely hashed password for authentication.  
+
+---
 
 # Python Concepts
 
